@@ -1,0 +1,286 @@
+{
+    "intents": [
+        {
+            "tag": "greeting1",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Greetings",
+                "Good day",
+                "Hey"
+            ],
+            "responses": [
+                "Hello sir"
+            ]
+        },
+        {
+            "tag": "greeting2",
+            "patterns": [
+                "Right lad",
+                "How are you",
+                "Hows it going",
+                "Whats going on"
+            ],
+            "responses": [
+                "Not bad sir youself"
+            ]
+        },
+        {
+            "tag": "greeting3",
+            "patterns": [
+                "Whats happening"
+            ],
+            "responses": [
+                "Not much sir youself"
+            ]
+        },
+        {
+            "tag": "answergreetingsgood",
+            "patterns": [
+                "Not too bad",
+                "Doing well",
+                "Happy enough",
+                "Decent",
+                "Yeah the day is going"
+            ],
+            "responses": [
+                "Good to hear sir, anything I can do for you",
+                "Happy to hear that sir what can I do for you"
+            ]
+        },
+        {
+            "tag": "answergreetingsbad",
+            "patterns": [
+                "Not good",
+                "Feeling shit",
+                "Not feeling good",
+                "Not too happy",
+                "Shit",
+                "Shite"
+            ],
+            "responses": [
+                "Sir im sorry to hear that, what can I do for you",
+                "Anything you need"
+            ]
+        },
+        {
+            "tag": "generalanswerneg",
+            "patterns": [
+                "No",
+                "Im alright",
+                "Nah",
+                "Not at the moment",
+                "Dont think so",
+                "Im good"
+            ],
+            "responses": [
+                "Ok get back to me when you need me",
+                "Alright lad see you when I see you",
+                "Im away back to sleep call if you need me",
+                "Righto"
+            ]
+        },
+        {
+            "tag": "generalanswerpos",
+            "patterns": [
+                "Jarvis can you",
+                "Jarvis",
+                "Actually",
+                "Yeah",
+                "I",
+                "Can you",
+                "Would you mind",
+                "If you dont mind",
+                "Would it be possible",
+                "I was wondering if you could",
+                "Can you please",
+                "How to",
+                "If it wouldnt be too much trouble",
+                "Is it possible for you to",
+                "Could you do me a favour and"
+            ],
+            "responses": [
+                "GPT"
+            ]
+        },
+        {
+            "tag": "Time",
+            "patterns": [
+                "What time is it",
+                "time in uk",
+                "time in london",
+                "Whats the time",
+                "Can i get the time",
+                "Jarvis whats the time",
+                "Please let me know the time"
+            ],
+            "responses": [
+                "TIME"
+            ]
+        },
+        {
+            "tag": "Date",
+            "patterns": [
+                "What date is it",
+                "Whats the calendar date",
+                "Whats the date",
+                "Can i get the date",
+                "Jarvis whats the date",
+                "Please let me know the date"
+            ],
+            "responses": [
+                "DATE"
+            ]
+        },
+        {
+            "tag": "Day",
+            "patterns": [
+                "What day is it",
+                "Whats the calendar day",
+                "Whats the day",
+                "What day of the week is it",
+                "Jarvis what day is it",
+                "Please let me know the day",
+                "What week day is it"
+            ],
+            "responses": [
+                "DAY"
+            ]
+        },
+        {
+            "tag": "LightBrightness",
+            "patterns": [
+                "Light brightness",
+                "Change brightness to",
+                "Set brightness to",
+                "Set light brightness to",
+                "Set the brightness of my light to"
+            ],
+            "responses": [
+                "BRIGHTNESS"
+            ]
+        },
+        {
+            "tag": "LightColorGreen",
+            "patterns": [
+                "Light color green",
+                "Change color to green",
+                "Set light color to green",
+                "colour of my light to green",
+                "make my light green"
+            ],
+            "responses": [
+                "COLORGREEN"
+            ]
+        },
+        {
+            "tag": "LightColorLime",
+            "patterns": [
+                "Light color lime",
+                "Change color to lime",
+                "Set light color to lime",
+                "colour of my light to lime",
+                "make my light lime"
+            ],
+            "responses": [
+                "COLORLIME"
+            ]
+        },
+        {
+            "tag": "LightColorRed",
+            "patterns": [
+                "Light color red",
+                "Change color to red",
+                "Set light color to red",
+                "colour of my light to red",
+                "make my light red"
+            ],
+            "responses": [
+                "COLORRED"
+            ]
+        },
+        {
+            "tag": "LightColorCyan",
+            "patterns": [
+                "Light color cyan",
+                "Change color to cyan",
+                "Set light color to cyan",
+                "colour of my light to cyan",
+                "make my light cyan"
+            ],
+            "responses": [
+                "COLORCYAN"
+            ]
+        },
+        {
+            "tag": "LightColorLightBlue",
+            "patterns": [
+                "Light color light blue",
+                "Change color to light blue",
+                "Set light color to light blue",
+                "colour of my light to light blue",
+                "make my light, light blue"
+            ],
+            "responses": [
+                "COLORLIGHTBLUE"
+            ]
+        },
+        {
+            "tag": "LightColorBlue",
+            "patterns": [
+                "Light color blue",
+                "Change color to blue",
+                "Set light color to blue",
+                "colour of my light to blue",
+                "make my light blue"
+            ],
+            "responses": [
+                "COLORBLUE"
+            ]
+        },
+        {
+            "tag": "LightColorPink",
+            "patterns": [
+                "Light color pink",
+                "Change color to pink",
+                "Set light color to pink",
+                "colour of my light to pink",
+                "make my light pink"
+            ],
+            "responses": [
+                "COLORPINK"
+            ]
+        },
+        {
+            "tag": "LightColorPurple",
+            "patterns": [
+                "Light color purple",
+                "Change color to purple",
+                "Set light color to purple",
+                "colour of my light to purple",
+                "make my light purple"
+            ],
+            "responses": [
+                "COLORPURPLE"
+            ]
+        },
+        {
+            "tag": "LightOn",
+            "patterns": [
+                "Light on"
+            ],
+            "responses": [
+                "ON"
+            ]
+        },
+        {
+            "tag": "LightOff",
+            "patterns": [
+                "Light off"
+            ],
+            "responses": [
+                "OFF"
+            ]
+        }
+    ]
+}
