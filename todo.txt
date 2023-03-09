@@ -1,3 +1,5 @@
 Connect to the deepfake voice of jarvis
 
 Get it to interpret my voice to text and send it to the chatbot 
+
+Add more intents
